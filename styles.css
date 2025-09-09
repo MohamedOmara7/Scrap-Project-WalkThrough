@@ -1,0 +1,27 @@
+
+:root{
+  --bg:#0b1220; --card:#121a2b; --accent:#4cc9f0; --muted:#94a3b8; --text:#e2e8f0;
+}
+*{box-sizing:border-box}
+body{margin:0; font-family:ui-sans-serif,system-ui,-apple-system,Segoe UI,Roboto,Inter,Arial; background:linear-gradient(180deg,#0b1220 0%,#0f172a 100%); color:var(--text)}
+a{color:var(--accent); text-decoration:none}
+a:hover{text-decoration:underline}
+.container{max-width:1100px; margin:0 auto; padding:24px}
+.nav{display:flex; gap:14px; flex-wrap:wrap; margin:16px 0 24px}
+.nav a{padding:10px 14px; background:var(--card); border:1px solid #1f2937; border-radius:12px}
+.header{display:flex; align-items:center; justify-content:space-between; gap:16px; padding:18px 22px; background:var(--card); border:1px solid #1f2937; border-radius:18px}
+.brand{display:flex; align-items:center; gap:12px}
+.brand .logo{width:42px; height:42px; border-radius:10px; display:block; object-fit:contain; box-shadow:0 0 30px rgba(76,201,240,.15)}
+.brand h1{font-size:20px; margin:0}
+.tag{font-size:12px; color:var(--muted)}
+.card{background:var(--card); border:1px solid #1f2937; border-radius:18px; padding:20px; margin:18px 0}
+.list{display:grid; grid-template-columns:repeat(auto-fill,minmax(260px,1fr)); gap:14px; margin-top:10px}
+.item{padding:14px; border:1px solid #1f2937; border-radius:14px; background:#0e1526}
+.item h3{margin:0 0 8px; font-size:16px}
+.footer{color:var(--muted); font-size:12px; text-align:center; padding:28px 0 8px}
+.hero{padding:26px; background:linear-gradient(135deg, rgba(76,201,240,.08), rgba(58,12,163,.08)); border:1px solid #1f2937; border-radius:18px; margin-top:18px}
+.btn{display:inline-block; padding:10px 14px; border-radius:12px; background:#1e293b; border:1px solid #334155}
+.btn:hover{background:#0f172a}
+.small{font-size:12px; color:var(--muted)}
+
+.logo img{height:42px;width:auto;display:block}
